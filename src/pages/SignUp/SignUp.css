@@ -1,0 +1,24 @@
+.Cont-SignUp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background-color: rgb(244, 244, 244);
+    min-height: 100vh;
+    min-width: 100%;
+
+}
+
+.SignUP {
+    padding: 15px;
+}
+
+
+.Btn-Signup {
+    height: 25%;
+}
+
+
+

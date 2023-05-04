@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: rgb(244, 244, 244);
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+
+.container {
+    margin-top: 25vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+@media (min-height: 800px) {
+
+
+    .container{
+        margin-top: 12vh;
+    }
+
+    .box {
+        height: 50vh;
+    }
+}
+
+@media(max-width: 450px) {
+    .container{
+        margin-top: 19vh;
+    }
+ }   
+
+.pageAnchor {
+    margin-top: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    height: 75%;
+    width: 78%;
+}

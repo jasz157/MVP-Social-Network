@@ -1,0 +1,71 @@
+.Header {
+    padding: 0;
+    height: 32px;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.pesquisa {
+    margin-top: 0px;
+    height: 21px;
+    width: 200px;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    margin-left: 0px;
+}
+
+.search-icon {
+    height: 25px;
+    width: 10%;
+}
+
+.login-icon-img {
+    height: 31px;
+    width: 20px;
+
+}
+
+.register-icon-img {
+    height: 32px;
+    width: 25px;
+}
+
+.rpg-game-vacancies-img{
+    height: 32px;
+    width: 25px;
+}
+
+.rpg-game-vacancies-img:active {
+    opacity: 0.3;
+}
+
+.register-icon-img:active {
+    opacity: 0.3;
+}
+
+.login-icon-img:active {
+    opacity: 0.3;
+
+}
+
+
+
+.nav-icons {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.icon {
+    margin-left: 20px;
+}
+
+.logoHeader {
+    width: 100px;
+    height: 31px;
+}
