@@ -1,5 +1,4 @@
-import {createGlobalStyle} from "styled-components";
-
+import { createGlobalStyle } from "styled-components";
 
 const GlobalStyled = createGlobalStyle`
 * {
@@ -15,8 +14,7 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+
 `;
 
-
-
-export default  GlobalStyled;
+export default GlobalStyled;

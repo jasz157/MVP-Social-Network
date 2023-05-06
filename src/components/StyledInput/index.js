@@ -13,6 +13,7 @@ const InputArea = styled.input`
     border-radius: 5px;
     outline-color: #b3b3b3;
     background-color: #f3f3f3;
+    font-size: large;
 
     @media(max-width: 724px){
         & {
